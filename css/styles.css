@@ -799,3 +799,8 @@ footer {
     display: none !important;
   }
 }
+@media screen and (max-width: 1024px) {
+  .cube-container {
+    display: none !important;
+  }
+}
