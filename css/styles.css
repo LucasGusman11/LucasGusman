@@ -775,6 +775,12 @@ footer {
     }
   }
   
+  @media screen and (max-width: 768px) {
+    .contenedor-cubo {
+      display: none !important;
+    }
+  }
+  
 
 }
 @media screen and (max-width: 768px) {
@@ -786,5 +792,10 @@ footer {
     visibility: hidden !important;
     opacity: 0 !important;
     pointer-events: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contenedor-cubo {
+    display: none !important;
   }
 }
