@@ -764,3 +764,8 @@ footer {
     margin-bottom: 0.5em;
   }
 }
+@media screen and (max-width: 768px) {
+  .contenedor-cubo {
+    display: none !important;
+  }
+}
